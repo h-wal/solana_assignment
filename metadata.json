@@ -1,0 +1,21 @@
+{
+    "name": "Pikachu Token",
+    "symbol": "PIKA",
+    "description": "Pikachu Token on Solana using metadata",
+    "image": "https://red-defiant-penguin-844.mypinata.cloud/ipfs/bafkreidq3gkwvjteyeqkcg2c3e27yryoev4saexfhtyuihh37kwi5drmqa",
+    "attributes": [
+        {
+            "trait_type": "Pokemon",
+            "value": "Electric"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri" : "https://red-defiant-penguin-844.mypinata.cloud/ipfs/bafkreidq3gkwvjteyeqkcg2c3e27yryoev4saexfhtyuihh37kwi5drmqa",
+                "type": "image/png"
+            }
+        ],
+        "category": "image"
+    }
+}
