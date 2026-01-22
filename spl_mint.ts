@@ -34,7 +34,7 @@ const mint = new PublicKey("BwMbcQZs5ZKHF4T7by9owsCfm9y8SrKThodeS7ZjrPcq");
             mint,
             ata.address,
             keypair,
-            10000
+            1000000000000e6
         )
         console.log(`Your mint txid: ${mintTx}`);
 

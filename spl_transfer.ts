@@ -13,7 +13,7 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
 const mint = new PublicKey("BwMbcQZs5ZKHF4T7by9owsCfm9y8SrKThodeS7ZjrPcq");
 
 // Recipient address
-const to = new PublicKey("FTy2c6SzKFFPMz2oJMey2qTv7td8trrPzpw1vgDQGq77");
+const to = new PublicKey("berg7BKPHZWPiAdjpitQaWCfTELaKjQ6x7e9nDSu23d");
 
 (async () => {
     try {
@@ -41,7 +41,7 @@ const to = new PublicKey("FTy2c6SzKFFPMz2oJMey2qTv7td8trrPzpw1vgDQGq77");
             fromAta.address,
             ata.address,
             keypair,
-            1e6,
+            10000000000e6,
         )
 
         // Get the token account of the toWallet address, and if it does not exist, create it
